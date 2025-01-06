@@ -89,7 +89,7 @@ public class EmployeeManagementSystem {
             switch (choice) {
                 case 1:
                     System.out.print("Enter Name: ");
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine(); 
                     String name = scanner.nextLine();
                     System.out.print("Enter Department: ");
                     String department = scanner.nextLine();
@@ -103,7 +103,7 @@ public class EmployeeManagementSystem {
                     System.out.print("Enter Employee ID to Update: ");
                     int id = scanner.nextInt();
                     System.out.print("Enter New Department: ");
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine(); 
                     department = scanner.nextLine();
                     System.out.print("Enter New Role: ");
                     role = scanner.nextLine();
@@ -121,7 +121,7 @@ public class EmployeeManagementSystem {
                     break;
                 case 5:
                     System.out.print("Enter Department to Filter: ");
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine(); 
                     department = scanner.nextLine();
                     filterEmployeesByDepartment(department);
                     break;
